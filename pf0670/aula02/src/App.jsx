@@ -1,11 +1,13 @@
 import React from 'react'
 import ListaAlunos from './components/ListaAlunos/ListaAlunos'
+import'./App.css'
+
 
 const App = () => {
 
     const aluno = 'Igor Ramalho'
     const curso = 'ADS'
-    const alunos = ['Alexandre', 'Ronqui', 'Guilherme']
+    const alunos = ['Alexandre', 'Ronqui', 'Guilherme','Fernando']
 
     const novoAluno = () => 'Ronqui'
 
