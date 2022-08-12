@@ -1,0 +1,9 @@
+.listaAluno{
+    /* width: 100px; */
+    padding: 1rem;
+    display: inline-block;
+    border: 1px solid #111;
+    background-color: red;
+    list-style: none;
+}
+
