@@ -3,7 +3,7 @@ import ListaAlunos from './components/ListaAlunos/ListaAlunos'
 
 const App = () => {
 
-    const aluno = 'Igor Ramalho'
+    const aluno = 'Leo Longo'
     const curso = 'ADS'
     const alunos = ['Alexandre', 'Ronqui', 'Guilherme']
 
