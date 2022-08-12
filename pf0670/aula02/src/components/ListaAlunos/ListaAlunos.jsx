@@ -3,10 +3,10 @@ import React from 'react'
 export default function ListaAlunos(props) {
     return (
         <ul>
-            <li>{props.alunos[0]}</li>
-            <li>{props.alunos[1]}</li>
-            <li>{props.alunos[2]}</li>
-            <li>{props.maisAluno()}</li>
+            {
+            props.alunos.map((aluno,i)=>
+            <li key={i}>{i+1} - {aluno}</li>
+            )}
         </ul>
     )
 }
